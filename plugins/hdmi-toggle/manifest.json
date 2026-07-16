@@ -1,0 +1,15 @@
+{
+    "id": "hdmi-toggle",
+    "name": "Gerenciador de Monitores",
+    "version": "2.0.0",
+    "author": "rael",
+    "description": "Lista todos os monitores e permite ligar/desligar cada um",
+    "tags": ["Bar", "Panel", "Hardware"],
+    "entryPoints": {
+        "barWidget": "BarWidget.qml",
+        "panel": "Panel.qml"
+    },
+    "metadata": {
+        "defaultSettings": {}
+    }
+}

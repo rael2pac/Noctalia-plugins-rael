@@ -1,0 +1,23 @@
+{
+  "id": "controller-battery",
+  "name": "Controller Battery",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "rael",
+  "license": "MIT",
+  "description": "Shows battery level of connected wireless controllers (PS4, Xbox) in the bar",
+  "tags": ["Bar", "Hardware"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "refreshInterval": 15000,
+      "showLowestOnly": true
+    }
+  }
+}

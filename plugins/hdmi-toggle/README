@@ -1,0 +1,21 @@
+Plugin HDMI Toggle para Noctalia
+
+Barra: mostra icone HDMI (video-display via Noctalia.Icon + Breeze Icons)
+Painel: liga/desliga monitor HDMI-A-1 via "niri msg output"
+Funcionalidade: 100% funcional (toggle, polling status, cores)
+
+Bug corrigido (18/jun/2026):
+  Causa: NIcon de qs.Widgets depende da fonte Tabler Icons, que nao
+         estava instalada no sistema. O fallback era o "skull" (U+1F480).
+
+  Fix: substituido NIcon (qs.Widgets) por Icon (Noctalia), que resolve
+       icones do tema de icones do sistema (Breeze Icons). Isso elimina
+       a dependencia de fonte externa e funciona com os icones ja
+       fornecidos pelo breeze-icons.
+
+  Icones usados (Breeze):
+    - "video-display" (monitor HDMI)
+    - "view-refresh" (botao refresh)
+    - "dialog-ok" / "dialog-cancel" (toggle liga/desliga)
+    - "go-next" (indicador de clique)
+    - "dialog-ok" / "dialog-cancel" (status no painel)

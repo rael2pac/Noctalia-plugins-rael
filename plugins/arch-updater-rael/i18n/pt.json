@@ -1,0 +1,180 @@
+{
+    "tooltip": {
+        "availableUpdates": "Atualizações Disponíveis",
+        "noctaliaUpdates": "Atualizações do Noctalia disponíveis"
+    },
+    "context": {
+        "refresh": "Verificar",
+        "update": "Atualizar",
+        "settings": "Configurações"
+    },
+    "panel": {
+        "context": {
+            "copy": "Copiar",
+            "open": "Abrir",
+            "repo": "Repositório",
+            "homepage": "Página Inicial"
+        },
+        "title": "Archlinux Update",
+        "name": "Pacote",
+        "version": "Versão",
+        "refresh": "Verificar",
+        "update": "Atualizar",
+        "settings": "Configurações"
+    },
+    "toast": {
+        "refreshing": "Buscando atualizações...",
+        "refreshed": "Atualizações verificadas!",
+        "cleanupRunning": "Limpando o sistema...",
+        "cleanupDone": "Limpeza do sistema concluída!"
+    },
+    "settings": {
+        "tabs": {
+            "general": "Geral",
+            "bar": "Barra",
+            "panel": "Painel",
+            "desktop": "Área de Trabalho"
+        },
+        "general": {
+            "title": "Geral",
+            "desc": "Configurações gerais do plugin",
+            "systemCmd": {
+                "text": "Comando do Sistema",
+                "desc": "Comando para verificar atualizações do sistema (formato: nome versaoantiga -> versaonova)"
+            },
+            "aurCmd": {
+                "text": "Comando AUR",
+                "desc": "Comando para verificar atualizações AUR (formato: nome versaoantiga -> versaonova); deixe vazio para desativar"
+            },
+            "updateCmd": {
+                "text": "Comando de Atualização",
+                "desc": "Comando para atualizar o sistema"
+            },
+            "aurHomepageCmd": {
+                "text": "Comando de Página Inicial AUR",
+                "desc": "Comando para obter a página inicial de pacotes AUR (use {id} como marcador do nome do pacote)"
+            },
+            "flatpak": {
+                "text": "Flatpak",
+                "desc": "Ativar verificação de atualizações Flatpak"
+            },
+            "toast": {
+                "text": "Notificação de Verificação",
+                "desc": "Ativar notificação ao verificar atualizações"
+            },
+            "refresh": {
+                "text": "Temporizador",
+                "desc": "Verificar atualizações automaticamente"
+            },
+            "interval": {
+                "text": "Intervalo",
+                "desc": "Intervalo de verificação em minutos: "
+            },
+            "cleanupAfterUpdate": {
+                "text": "Limpeza após atualizar",
+                "desc": "Executar limpeza do sistema após instalar as atualizações"
+            },
+            "cleanupCmd": {
+                "text": "Comando de Limpeza",
+                "desc": "Comando para limpar o sistema (cache, órfãos, logs, etc.)"
+            },
+            "cachePreserveList": {
+                "text": "Pastas a Preservar no Cache",
+                "desc": "Nomes das pastas em ~/.cache para preservar durante a limpeza (separados por espaço)"
+            }
+        },
+        "bar": {
+            "title": "Barra",
+            "desc": "Configurações do widget da barra",
+            "noctalia": {
+                "text": "Noctalia",
+                "desc": "Destacar widget se houver atualizações do Noctalia"
+            },
+            "tooltip": {
+                "text": "Dica",
+                "desc": "Mostrar dica ao passar o mouse sobre o widget"
+            },
+            "hideOnEmpty": {
+                "text": "Ocultar se vazio",
+                "desc": "Ocultar widget se não houver atualizações disponíveis"
+            },
+            "boldCount": {
+                "text": "Contagem em negrito",
+                "desc": "Exibir a contagem de atualizações em negrito"
+            },
+            "useDistroLogo": {
+                "text": "Usar logo da distro",
+                "desc": "Usar o logotipo da sua distribuição como ícone do widget"
+            },
+            "enableColorization": {
+                "text": "Colorir ícone",
+                "desc": "Colorir o ícone com uma cor personalizada"
+            },
+            "iconColor": {
+                "text": "Cor do ícone",
+                "desc": "Escolher a cor do ícone"
+            },
+            "iconName": {
+                "text": "Ícone",
+                "desc": "Escolher o ícone do widget da barra",
+                "browseLibrary": "Procurar na biblioteca",
+                "browseFile": "Procurar arquivo",
+                "selectCustomIcon": "Selecionar ícone personalizado"
+            }
+        },
+        "panel": {
+            "title": "Painel",
+            "desc": "Configurações do painel",
+            "boldVer": {
+                "text": "Nova Versão em Negrito",
+                "desc": "Exibir a coluna da nova versão em negrito"
+            },
+            "tooltip": {
+                "text": "Dica",
+                "desc": "Mostrar dica ao passar o mouse sobre o texto na tabela"
+            },
+            "context": {
+                "text": "Menu de Contexto",
+                "desc": "Mostrar menu de contexto ao clicar com botão direito na tabela"
+            },
+            "closeButton": {
+                "text": "Botão Fechar",
+                "desc": "Mostrar botão fechar no painel"
+            },
+            "closeOnSettings": {
+                "text": "Fechar ao Abrir Configurações",
+                "desc": "Fecha o painel ao pressionar o botão de configurações"
+            }
+        },
+        "desktop": {
+            "title": "Widget da Área de Trabalho",
+            "desc": "Configurações do widget da área de trabalho",
+            "boldVer": {
+                "text": "Nova Versão em Negrito",
+                "desc": "Exibir a coluna da nova versão em negrito"
+            },
+            "hoverTip": {
+                "text": "Dica ao Passar o Mouse",
+                "desc": "Ativar dica ao passar o mouse no widget"
+            }
+        }
+    },
+    "launcher": {
+        "refresh": "Verificar atualizações disponíveis",
+        "update": "Atualizar sistema",
+        "search": "Pesquisar atualizações disponíveis"
+    },
+    "ccw": {
+        "tooltip": "Abrir painel de atualizações"
+    },
+    "desktop": {
+        "header": "atualização disponível",
+        "header-plural": "atualizações disponíveis",
+        "name": "Nome",
+        "oldVer": "Versão Antiga",
+        "newVer": "Nova Versão",
+        "tipLeft": "Clique esquerdo para verificar",
+        "tipMiddle": "Clique do meio para atualizar",
+        "tipRight": "Clique direito para configurar"
+    }
+}
