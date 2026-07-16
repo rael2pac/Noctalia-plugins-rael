@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "arch-updater-rael",
+      "name": "Arch Update (rael2pac)",
+      "version": "2.3.1",
+      "official": false,
+      "author": "rael2pac",
+      "description": "Gerenciador de atualizacoes Arch com limpeza automatica",
+      "repository": "https://github.com/rael2pac/Noctalia-plugins-rael",
+      "license": "MIT",
+      "tags": ["Bar", "Desktop", "Panel", "System", "Utility"],
+      "lastUpdated": "2026-07-16T00:00:00-03:00"
+    },
+    {
+      "id": "controller-battery",
+      "name": "Controller Battery",
+      "version": "1.0.0",
+      "official": false,
+      "author": "rael2pac",
+      "description": "Exibe nivel de bateria de controles Bluetooth",
+      "repository": "https://github.com/rael2pac/Noctalia-plugins-rael",
+      "license": "MIT",
+      "tags": ["Bar", "Panel", "Hardware"],
+      "lastUpdated": "2026-07-16T00:00:00-03:00"
+    },
+    {
+      "id": "hdmi-toggle",
+      "name": "HDMI Toggle",
+      "version": "1.0.0",
+      "official": false,
+      "author": "rael2pac",
+      "description": "Alterna saida de audio HDMI facilmente",
+      "repository": "https://github.com/rael2pac/Noctalia-plugins-rael",
+      "license": "MIT",
+      "tags": ["Bar", "Panel", "Hardware"],
+      "lastUpdated": "2026-07-16T00:00:00-03:00"
+    }
+  ]
+}
